@@ -1,0 +1,31 @@
+name: Pal's Clicker
+author: Charlotion 
+desc: click on those delicious big pals 
+version: pre-alpha
+background: https://palsweb.com/images/recruitment-hero.jpg
+
+Layout
+*main
+  contains: bigpal-container
+  *bigpal-container
+    contains: Buttons, Resources
+    header: The best of all burgers.
+    *BigPal
+      name: Big Pal
+      desc: This is your Big Pal. Click it!
+      icon: https://www.palsweb.com/uploads/image/md/big-pal
+      show clicks
+      on click: 
+        yield 1 Big Pal
+      end
+      
+
+
+*store
+  contains: buildings, unlockables
+  *buildings
+    contains: Buildings
+    header: Use these to make more Big Pals!
+  *unlockables
+    contains: Upgrades, Achievements
+    names: hide
