@@ -29,6 +29,4 @@ Resources
     name: Big Pal
         desc: This is your Big Pal. Click it!
         icon: https://www.palsweb.com/uploads/image/md/big-pal
-        on click: 
-          yield 1 Big Pal
         end     
