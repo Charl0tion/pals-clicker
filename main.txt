@@ -1,3 +1,5 @@
+Let's make a game!
+
 name: Pal's Clicker
 author: Charlotion 
 desc: click on those delicious big pals 
