@@ -11,8 +11,8 @@ Settings
 
 Layout
   *main
-    contains: bigpal-container
-    *bigpal-container
+    contains: bigpalcontainer
+    *bigpalcontainer
       contains: Buttons, Resources
       header: The best of all burgers.
   *store
