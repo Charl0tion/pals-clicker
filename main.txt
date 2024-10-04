@@ -9,15 +9,6 @@ Let's make a game!
 Settings
   background: https://palsweb.com/images/recruitment-hero.jpg
 
-*bigpalcontainer
-    contains: Buttons, Resources
-    header: The best of all burgers.
-*buildings
-    contains: Buildings
-    header: Use these to make more Big Pals!
-*unlockables
-    contains: Upgrades, Achievements
-    names: hide 
 *bigpalbutton
   name: Big Pal Button
   icon: https://www.palsweb.com/uploads/image/md/big-pal
@@ -28,6 +19,23 @@ Resources
     name: Big Pal
         desc: This is your Big Pal. Click it!
         icon: https://www.palsweb.com/uploads/image/md/big-pal
+
+Buildings
+*PalsDiner
+  name: Pal's Diner
+  desc: The very first Pal's, complete with old timey charm.
+  on tick: yield 3 Big Pal
+  cost: 5 Big Pal
+
 Layout
   use default
 
+*bigpalcontainer
+    contains: Buttons, Resources
+    header: The best of all burgers.
+*buildings
+    contains: Buildings
+    header: Use these to make more Big Pals!
+*unlockables
+    contains: Upgrades, Achievements
+    names: hide 
