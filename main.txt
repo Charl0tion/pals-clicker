@@ -18,6 +18,10 @@ Settings
 *unlockables
     contains: Upgrades, Achievements
     names: hide 
+*bigpalbutton
+  name: Big Pal Button
+  icon: https://www.palsweb.com/uploads/image/md/big-pal
+  on click:yield 1 BigPal
 
 Resources
   *BigPal
