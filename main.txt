@@ -1,40 +1,40 @@
 Let's make a game!
-  name: Pal's Clicker
-  author: Charlotion 
-  desc: click on those delicious big pals 
-  created: 02/10/2024
-  updated: 02/10/2024
-  version: pre-alpha
+  name:Pal's Clicker
+  author:Charlotion 
+  desc:click on those delicious big pals 
+  created:02/10/2024
+  updated:02/10/2024
+  version:pre-alpha
 
 Settings
-  background: https://palsweb.com/images/recruitment-hero.jpg
-  building cost increase: 125%
-  building cost refund: 25%
+  background:https://palsweb.com/images/recruitment-hero.jpg
+  building cost increase:125%
+  building cost refund:25%
 
 *bigpalbutton
-  name: Big Pal Button
-  icon: https://www.palsweb.com/uploads/image/md/big-pal
-  on click: yield 1 BigPal
+  name:Big Pal Button
+  icon:https://www.palsweb.com/uploads/image/md/big-pal
+  on click:yield 1 BigPal
 
 Resources
   *BigPal
-    name: Big Pal
-    desc: This is your Big Pal. Click it!
-    icon: https://www.palsweb.com/uploads/image/md/big-pal
+    name:Big Pal
+    desc:This is your Big Pal. Click it!
+    icon:https://www.palsweb.com/uploads/image/md/big-pal
     show earned
 
 
 *PalsDiner
-  name: Pal's Diner
-  desc: The very first Pal's, complete with old timey charm.
+  name:Pal's Diner
+  desc:The very first Pal's, complete with old timey charm.
   on tick:yield 3 BigPal
-  cost: 5 BigPal
+  cost:5 BigPal
 
 *DoubleBigPal
-  name: Double Big Pal
-  desc: Twice the fun!
-  passive: multiply yield of bigpalbutton by 2
-  cost: 25 BigPal
+  name:Double Big Pal
+  desc:Twice the fun!
+  passive:multiply yield of bigpalbutton by 2
+  cost:25 BigPal
 
 Layout
   use default
