@@ -14,7 +14,7 @@ Settings
 *bigpalbutton
   name: Big Pal Button
   icon: https://www.palsweb.com/uploads/image/md/big-pal
-  on click:yield 1 BigPal
+  on click: yield 1 BigPal
 
 Resources
   *BigPal
@@ -26,8 +26,8 @@ Resources
 *PalsDiner
   name: Pal's Diner
   desc: The very first Pal's, complete with old timey charm.
-  on tick: yield 3 Big Pal
-  cost: 5 Big Pal
+  on tick: yield 3 BigPal
+  cost: 5 BigPal
 
 Layout
   use default
