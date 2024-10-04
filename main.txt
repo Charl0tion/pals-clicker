@@ -29,6 +29,12 @@ Resources
   on tick: yield 3 BigPal
   cost: 5 BigPal
 
+*DoubleBigPal
+  name: Double Big Pal
+  desc: Twice the fun!
+  passive: multiply yield of bigpalbutton by 2
+  cost: 25 BigPal
+
 Layout
   use default
 
