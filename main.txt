@@ -30,12 +30,4 @@ Buildings
 Layout
   use default
 
-*bigpalcontainer
-    contains: Buttons, Resources
-    header: The best of all burgers.
-*buildings
-    contains: Buildings
-    header: Use these to make more Big Pals!
-*unlockables
-    contains: Upgrades, Achievements
-    names: hide 
+
