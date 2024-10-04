@@ -20,7 +20,7 @@ Resources
         desc: This is your Big Pal. Click it!
         icon: https://www.palsweb.com/uploads/image/md/big-pal
 
-Buildings
+
 *PalsDiner
   name: Pal's Diner
   desc: The very first Pal's, complete with old timey charm.
