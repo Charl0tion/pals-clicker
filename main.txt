@@ -11,10 +11,11 @@ Settings
   building cost increase:125%
   building cost refund:25%
 
-*bigpalbutton
-  name:Big Pal Button
-  icon:https://www.palsweb.com/uploads/image/md/big-pal
-  on click:yield 1 BigPal
+Buttons
+  *bigpalbutton
+    name:Big Pal Button
+    icon:https://www.palsweb.com/uploads/image/md/big-pal
+    on click:yield 1 BigPal
 
 Resources
   *BigPal
@@ -23,18 +24,18 @@ Resources
     icon:https://www.palsweb.com/uploads/image/md/big-pal
     show earned
 
-
-*PalsDiner
-  name:Pal's Diner
-  desc:The very first Pal's, complete with old timey charm.
-  on tick:yield 3 BigPal
-  cost:5 BigPal
-
-*DoubleBigPal
-  name:Double Big Pal
-  desc:Twice the fun!
-  passive:multiply yield of bigpalbutton by 2
-  cost:25 BigPal
+Buildings
+  *PalsDiner
+    name:Pal's Diner
+    desc:The very first Pal's, complete with old timey charm.
+    on tick:yield 3 BigPal
+    cost:5 BigPal
+Upgrades
+  *DoubleBigPal
+    name:Double Big Pal
+    desc:Twice the fun!
+    passive:multiply yield of bigpalbutton by 2
+    cost:25 BigPal
 
 Layout
   use default
