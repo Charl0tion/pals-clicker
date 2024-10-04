@@ -19,14 +19,15 @@ Settings
 Resources
   *BigPal
     name: Big Pal
-        desc: This is your Big Pal. Click it!
-        icon: https://www.palsweb.com/uploads/image/md/big-pal
+    desc: This is your Big Pal. Click it!
+    icon: https://www.palsweb.com/uploads/image/md/big-pal
+    show earned
 
 
 *PalsDiner
   name: Pal's Diner
   desc: The very first Pal's, complete with old timey charm.
-  on tick: yield 3 BigPal
+  on tick:yield 3 BigPal
   cost: 5 BigPal
 
 *DoubleBigPal
