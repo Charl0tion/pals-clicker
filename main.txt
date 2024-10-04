@@ -8,6 +8,8 @@ Let's make a game!
 
 Settings
   background: https://palsweb.com/images/recruitment-hero.jpg
+  building cost increase: 125%
+  building cost refund: 25%
 
 *bigpalbutton
   name: Big Pal Button
