@@ -9,23 +9,24 @@ Let's make a game!
 Settings
   background: https://palsweb.com/images/recruitment-hero.jpg
 
-Layout
-  *main
-    contains: bigpalcontainer
-    *bigpalcontainer
-      contains: Buttons, Resources
-      header: The best of all burgers.
-  *store
-    contains: buildings, unlockables
-    *buildings
-      contains: Buildings
-      header: Use these to make more Big Pals!
-    *unlockables
-      contains: Upgrades, Achievements
-      names: hide 
+*bigpalcontainer
+    contains: Buttons, Resources
+    header: The best of all burgers.
+*buildings
+    contains: Buildings
+    header: Use these to make more Big Pals!
+*unlockables
+    contains: Upgrades, Achievements
+    names: hide 
 
 Resources
   *BigPal
     name: Big Pal
         desc: This is your Big Pal. Click it!
         icon: https://www.palsweb.com/uploads/image/md/big-pal
+Layout
+  *main
+    contains: bigpalcontainer
+  *store
+    contains: buildings, unlockables
+
